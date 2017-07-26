@@ -56,6 +56,8 @@
 							<target>
 								<copy file="${basedir}/target/azuredemo-0.0.1-SNAPSHOT.jar"
 									todir="D:/home/site/wwwroot" />
+								<copy file="${basedir}/src/main/resources/web.config"
+									todir="C:/Users/HSHEKAR/Downloads/azuredemo-master/azuredemo-master/target" />	
 							</target>
 						</configuration>
 						<goals>
