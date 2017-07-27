@@ -47,10 +47,10 @@ public class EmployeeController {
 		return ResponseEntity.ok("employee updated.");
 	}
 	
-	/*@RequestMapping(value="/employee/{id}", method = RequestMethod.DELETE)
+	@RequestMapping(value="/employee/{id}", method = RequestMethod.DELETE)
 	public ResponseEntity<?> deleteEmployee(@PathVariable("id") Integer id) {	
 		log.info("deleting employee: " +id);
 		return ResponseEntity.ok(employeeService.deleteEmployee(id));
-	}*/
+	}
 
 }
